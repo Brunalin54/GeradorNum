@@ -1,0 +1,85 @@
+/* Resetando margens e paddings para evitar inconsistências */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral*/
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #253441; 
+    padding: 20px;
+    text-align: center; 
+    color: #e9d6c5; 
+    
+    
+}
+
+/* Ttitulo  */
+h1 {
+    font-size: 2.5rem;
+    color: #e97304; 
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 1rem;
+    display: block;
+    margin-bottom: 5px;
+    color: #e9d6c5;
+}
+
+/* Mensagem */
+p#message {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #e9d6c5; 
+}
+
+/* Campos de entrada  */
+div {
+    margin-bottom: 15px;
+}
+
+
+/* Inputs */
+input[type="number"] {
+    width: 250px;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin-top: 5px;
+    border: 2px solid #ccc;
+}
+
+input[type="number"]:focus {
+    outline: none;
+    border-color: #47339c; 
+}
+
+/* Botão */
+button {
+    background-color: #fa8500; 
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: white;
+}
+
+/* Botão Hover */
+button:hover {
+    background-color: #a8acec; 
+    transform: scale(1.5);
+}
+
+/* Resultado*/
+#resultado {
+    font-size: 1.5rem; 
+    font-weight: bold;
+    margin-top: 20px;
+    color: #80a300;
+}
